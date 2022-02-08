@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(5, 4, 4);
+}
+#div{
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+    width: 40%;
+    height: 80%;
+   
+}
+#text{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    line-height: 30px;
+   color: #fff; 
+   font-family: Gilroy;
+}
+#text h1{
+    font-size: 45px;
+}
+#text #one{
+   color: red;
+}
+
+#text #two{
+     width: 59%;
+   letter-spacing: 2px;
+   margin-top: 15px;
+}
+#rytdiv{
+    color: rgba(255, 255, 255, 0.459);
+    position: absolute;
+    right: 2%;
+}
+#rytdiv h4{
+    padding: 175% 0%;
+    transform: rotate(270deg);
+}
+#topdiv{
+    position: absolute;
+    top: 3%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 35%;
+    color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+}
+#div img{
+    position: absolute;
+    right: 5%;
+}
+#arrow i{
+   position: absolute;
+   color: #fff;
+   bottom: 5%;
+   left: 5%;
+   font-size: 20px;
+}
